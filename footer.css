@@ -2,15 +2,15 @@
     margin: auto;
     text-align: center;
     font-size: 12px;
-    border-top-style: solid;
-    border-width: thin;
+    color: white;
+    background-color: #5e575d;
     padding: 10px 0;
 }
 .school_data a{
-    color: black;
+    color: white;
     text-decoration: none;
-    transition: .2s;
+    transition: .3s;
 }
 .school_data a:hover{
-    color: rgb(0, 0, 138);
+    color: black;
 }
