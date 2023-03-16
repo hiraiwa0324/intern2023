@@ -11,15 +11,15 @@
 }
 .button p{
     padding: 5px 15px;
-    border: 1px solid #000000;
-    background-color: gainsboro;
+    border: 1px solid #934491;
+    background-color: white;
 }
 .button_item{
     min-width: 143px;
     text-align: center;
 }
 .button a{
-    color: black;
+    color: #934491;
     text-decoration: none;
 }
 
