@@ -1,32 +1,38 @@
 .main_shimamoto{
-    max-width: 1200px;
     margin: auto;
 }
-.schoolimg{
-    text-align: center;
+.logo{
+    padding: 40px 20px 20px;
+}
+.hero{
+    background: url(school_out1.png) center top;
+    height: 35vw;
+    background-size: cover;
+}
+.jumbotron{
+    padding: 6rem 2rem;
 }
 
 .button{
     display: flex;
     justify-content: center;
-    gap: 50px;
-    padding: 20px;
+    padding: 40px;
 }
 .button_item:hover{
-    background-color: #934491;
-    color: #934491;
+    background-color: #5e575d;
+    color: #5e575d;
     text-decoration: none;
 }
 .button_item{
     min-width: 143px;
     text-align: center;
     padding: 5px 15px;
-    border: 1px solid #934491;
+    border: 1px solid #5e575d;
     background-color: white;
-    transition: .4s;
+    transition: .3s;
 }
 .button a{
-    color: #934491;
+    color: #5e575d;
     text-decoration: none;
 }
 .button_item p{
@@ -37,7 +43,10 @@
 }
 .text{
     text-align: center;
+    padding: 30px 0 70px;
+    font-family: serif;
 }
 .text p{
-    font-size: 15px;
+    font-size: 14px;
+    padding: 16px;
 }
