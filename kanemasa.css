@@ -2,6 +2,7 @@
     max-width: 1200px;
     font-size: 17px;
     margin: auto;
+    height :auto;
 }
 
 .flex_1{
@@ -12,14 +13,19 @@
 .flexcontents{
     display: flex;
     flex-direction: column;
+    justify-content:space-between ;
+    max-height: 700px;
     max-width: 400px;
-    gap:20px;
 }
 
-.imgcontents{
-    max-height: 20%;
+
+.imgcontents{   
+   height: 25%
 }
 
+.shortimg{
+    height:15%;
+}
 ul{
     border-bottom: 4px solid;
     line-height: 100px;
@@ -93,4 +99,8 @@ a:visited{
 .information h2:after {
 	margin-left: .4em;
 	background: black;
+}
+
+.box{
+    
 }
