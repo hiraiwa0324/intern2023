@@ -6,11 +6,16 @@
 }
 .button{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
 }
 .button p{
     padding: 5px 15px;
     border: 1px solid #000000;
+}
+.button_item{
+    min-width: 143px;
+    text-align: center;
 }
 .text{
     text-align: center;
