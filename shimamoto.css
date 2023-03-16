@@ -4,25 +4,36 @@
 .schoolimg{
     text-align: center;
 }
+
 .button{
     display: flex;
     justify-content: center;
     gap: 50px;
+    padding: 20px;
 }
-.button p{
-    padding: 5px 15px;
-    border: 1px solid #934491;
-    background-color: white;
+.button_item:hover{
+    background-color: #934491;
+    color: #934491;
+    text-decoration: none;
 }
 .button_item{
     min-width: 143px;
     text-align: center;
+    padding: 5px 15px;
+    border: 1px solid #934491;
+    background-color: white;
+    transition: .4s;
 }
 .button a{
     color: #934491;
     text-decoration: none;
 }
-
+.button_item p{
+    margin: 0%;
+}
+.button a:hover{
+    color: white;
+}
 .text{
     text-align: center;
 }
