@@ -15,7 +15,8 @@ p,
 figure,
 blockquote,
 dl,
-dd,li {
+dd,
+li {
   margin: 0;
 }
 
@@ -60,7 +61,7 @@ select {
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
   *,
   *::before,
@@ -70,4 +71,13 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+p {
+  font-size: 14px;
+  line-height: 1.6;
 }
