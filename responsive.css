@@ -71,6 +71,12 @@
     z-index: 80;
     background-color:#5e575d;
     transition: all 0.5s;
+    padding: 0px;
+}
+
+.botton .logo2{
+    width: 90%;
+    background-color: #ffffff;
 }
 
 
@@ -78,16 +84,18 @@
     border-bottom: solid 1px #ffffff;
     list-style: none;
     width:100%;
-    margin: 2%;
+    line-height: 49px;
 }
 .button a p {
     width: 100%;
-    font-size: 15px;
+    font-size: 20px;
     box-sizing: border-box;
-    color:black;
+    color:white;
     text-decoration: none;
     padding: 9px 15px 10px 0;
     position: relative;
+    text-align: left;
+
 }
 .button a p::before {
     content: "";
@@ -103,6 +111,12 @@
 
 a.logo2{
     display: block;
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    height: 93px;
+    padding: 11px;
 }
 
 .flex_1{
