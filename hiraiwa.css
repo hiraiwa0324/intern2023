@@ -1,0 +1,79 @@
+.main_kanemasa {
+  max-width: 1024px;
+  padding-bottom: 120px;
+}
+.text {
+  padding: 80px 0;
+  font-family: "Klee One";
+}
+.text p {
+  line-height: 2.3;
+  letter-spacing: 0.1em;
+}
+.flexcontents {
+  max-height: initial;
+  max-width: 320px;
+  padding: 30px;
+}
+.box {
+  width: 100%;
+  padding-left: 10%;
+}
+.school_data {
+  padding: 30px 0;
+}
+
+ul {
+  line-height: initial;
+  padding: 0;
+}
+.information li {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+.information li:last-child {
+  border-bottom: none;
+}
+.information li .date {
+  width: 20%;
+  font-size: 12px;
+}
+.information li a {
+  width: 80%;
+}
+.subbtn {
+  padding: 5px 0;
+}
+.information .news,
+.subbtn a {
+  font-size: 14px;
+}
+
+.button_item:nth-child(2),
+.button_item:nth-child(4) {
+  border-left: none;
+  border-right: none;
+}
+.bottom_banner {
+  margin-bottom: 60px;
+}
+.bottom_banner img {
+  width: 100%;
+}
+.bottom_banner {
+  overflow: hidden;
+}
+.hover--zoom img {
+  transition: 0.5s;
+}
+.hover--zoom:hover img {
+  transform: scale(1.04);
+}
+.top_footer {
+  height: 400px;
+  background-image: url("./imgs/top_footer.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
