@@ -155,3 +155,12 @@ a.logo2{
     width:100%;
 }
 
+.button p:hover {
+    color: #5e575d;
+    text-decoration: none;
+}
+
+.button a:hover {
+    background-color: white;
+}
+
