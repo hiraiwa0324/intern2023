@@ -18,6 +18,13 @@
     max-width: 400px;
 }
 
+.flexcontents img{
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+.flexcontents img:hover{
+    border: 1px solid #5e575d;
+}
+
 
 .imgcontents{   
    height: 28%
