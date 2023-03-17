@@ -101,6 +101,11 @@ a:visited{
 	background: black;
 }
 
-.box{
-    
+a.logo2{
+    display: none;
 }
+
+#menu-btn-check {
+    display: none;
+}
+
