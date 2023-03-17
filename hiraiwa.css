@@ -50,8 +50,9 @@ ul {
   font-size: 14px;
 }
 
-.button_item:nth-child(2),
-.button_item:nth-child(4) {
+.button_item:nth-child(1),
+.button_item:nth-child(3),
+.button_item:nth-child(5) {
   border-left: none;
   border-right: none;
 }
