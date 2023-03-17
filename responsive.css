@@ -1,5 +1,5 @@
 .button_item{
-    background-color: #ffffff;
+    background-color: #5e575d;
 }
 
 .button{
@@ -9,7 +9,7 @@
 }
 .menu-btn {
     position: fixed;
-    top: 10px;
+    top: 40px;
     right: 10px;
     display: flex;
     height: 40px;
@@ -17,7 +17,7 @@
     justify-content: center;
     align-items: center;
     z-index: 90;
-    background-color: #3584bb;
+    background-color: #5e575d;
 }
 .menu-btn span,
 .menu-btn span:before,
@@ -69,13 +69,13 @@
     top: 0;
     left: 100%;
     z-index: 80;
-    background-color:rgba(53,132,187);
+    background-color:#5e575d;
     transition: all 0.5s;
 }
 
 
 .button a {
-    border-bottom: solid 1px #5e575d;
+    border-bottom: solid 1px #ffffff;
     list-style: none;
     width:100%;
     margin: 2%;
@@ -93,8 +93,8 @@
     content: "";
     width: 7px;
     height: 7px;
-    border-top: solid 2px #5e575d;
-    border-right: solid 2px #5e575d;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
     transform: rotate(45deg);
     position: absolute;
     right: 11px;
