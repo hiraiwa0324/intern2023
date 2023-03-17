@@ -20,6 +20,7 @@
 
 .flexcontents img{
     border: 1px solid rgba(255, 255, 255, 0);
+    transition: .5s;
 }
 .flexcontents img:hover{
     border: 1px solid #5e575d;
